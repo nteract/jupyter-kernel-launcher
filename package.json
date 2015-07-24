@@ -12,6 +12,11 @@
     "prepublish": "npm run build",
     "clean": "rimraf lib/* dist/*"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nteract/jupyter-kernel-launcher.git"
+  },
+  "homepage": "https://github.com/nteract/jupyter-kernel-launcher",
   "dependencies": {
     "eventemitter2": "^0.4.14",
     "jmp": "^0.2.0",
