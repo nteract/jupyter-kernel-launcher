@@ -9,7 +9,6 @@ Kernel = require 'jupyter-session'
 
 module.exports = KernelLauncher =
     kernelsDirOptions: jupyterPath('kernels')
-    runningKernels: {}
     pythonInfo:
         display_name: "Python"
         language: "python"
@@ -31,9 +30,6 @@ module.exports = KernelLauncher =
             if pythonKernels.length == 0
                 kernels.push(@pythonInfo)
             return kernels
-
-    getRunningKernels: ->
-        return _.clone(@runningKernels)
 
     getKernelsFromDirectory: (directory) ->
         try
