@@ -20,7 +20,7 @@
   "dependencies": {
     "eventemitter2": "^0.4.14",
     "jmp": "^0.2.0",
-    "jupyter-session": "0.0.2",
+    "jupyter-session": "0.0.3",
     "uuid": "^2.0.1"
   },
   "devDependencies": {
