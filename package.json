@@ -1,7 +1,7 @@
 {
   "name": "jupyter-kernel-launcher",
   "main": "./lib/main",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Launches Jupyter kernels from a Node environment.",
   "author": "Will Whitney <me@willwhitney.com>",
   "license": "MIT",
