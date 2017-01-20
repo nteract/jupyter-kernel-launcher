@@ -1,5 +1,7 @@
 # jupyter-kernel-launcher
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/nteract/jupyter-kernel-launcher.svg)](https://greenkeeper.io/)
+
 Broken out of [Hydrogen](https://github.com/willwhitney/hydrogen).
 
 ## Usage
